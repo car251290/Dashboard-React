@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ThemSet() {
+const ThemSet = () => {
   return (
     <div>ThemSet</div>
   )

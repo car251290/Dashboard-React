@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import {FiSettings} from 'react-icons/fi';
 import {TooltipComponent} from 'syncfunsion/ej2-react-popups';
-import {NavBar,Footer,SideBar,ThemeSettings, LineChart} from './components';
+import {NavBar,Footer,ThemeSettings, SideBar,LineCharts} from './components';
 import {Ecommerce,Orders,Calendar,Employees,Stacked,Pyramid,Customers,Kanban,Area,Bar,Pie,Financial,ColorPicker,ColorMapping,Editor} from './pages';
 import { useStateContext } from './contexts/ContextProvider';
 
@@ -47,7 +47,7 @@ const {activeMenu} = useStateContext(true);
                <Routes>
                    {/* Ecommerce */}
 
-                   <Route path="/" element={<Ecommerce/>}/>
+                   <Route path="/ecommerce" element={<Ecommerce/>}/>
                    <Route path="/ecommerce" element={<Ecommerce/>}/>
 
                     {/* pages */}
@@ -62,7 +62,7 @@ const {activeMenu} = useStateContext(true);
                     <Route path="/color-picker" element={<ColorPicker/>}/>
 
                      {/* Charts */}
-                     <Route path="/Line" element={<LineChart/>}/>
+                     <Route path="/Line" element={<LineCharts/>}/>
                      <Route path="/area" element={<Area/>}/>
                      <Route path="/bar" element={<Bar/>}/>
                      <Route path="/pie" element={<Pie/>}/>

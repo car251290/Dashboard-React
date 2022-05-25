@@ -1,9 +1,13 @@
 import React from 'react'
 
-function ColorPicker() {
+const ColorPicker = () => {
   return (
-    <div>ColorPicker</div>
+  <div>
+ColorPicker
+  </div>
   )
-}
-
-export default ColorPicker
+  
+ }
+ 
+export default ColorPicker;
+  
