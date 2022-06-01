@@ -1,11 +1,11 @@
 import React from 'react'
-import './App.css'
+import './App.css';
 import { useEffect } from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import {FiSettings} from 'react-icons/fi';
-import {TooltipComponent} from 'syncfunsion/ej2-react-popups';
-import {NavBar,Footer,ThemeSettings, SideBar,LineCharts} from './components';
-import {Ecommerce,Orders,Calendar,Employees,Stacked,Pyramid,Customers,Kanban,Area,Bar,Pie,Financial,ColorPicker,ColorMapping,Editor} from './pages';
+import { TooltipComponent } from '@syncfusion/ej2-react-popups';
+import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
+import {Ecommerce,Line,Orders,Calendar,Employees,Stacked,Pyramid,Customers,Kanban,Area,Bar,Pie,Financial,ColorPicker,ColorMapping,Editor} from './pages';
 import { useStateContext } from './contexts/ContextProvider';
 
 
@@ -29,18 +29,18 @@ const {activeMenu} = useStateContext(true);
 
            {activeMenu ? (
                <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white">
-                   <SideBar/>
+                   <Sidebar/>
                </div>
            ) : ( 
            <div className='w-0 dark:bg-secondary-dark-bg'>
-               <SideBar/>
+               <Sidebar/>
            </div>
            )}
            <div className = {
                `dark:bg-main-bg bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72': 'flex-2'}`
            }>
                <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
-                   <NavBar/>
+                   <Navbar/>
                </div>
            </div>
            <div>
@@ -62,7 +62,7 @@ const {activeMenu} = useStateContext(true);
                     <Route path="/color-picker" element={<ColorPicker/>}/>
 
                      {/* Charts */}
-                     <Route path="/Line" element={<LineCharts/>}/>
+                     <Route path="/Line" element={<Line/>}/>
                      <Route path="/area" element={<Area/>}/>
                      <Route path="/bar" element={<Bar/>}/>
                      <Route path="/pie" element={<Pie/>}/>
