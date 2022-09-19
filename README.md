@@ -1,4 +1,4 @@
-
+## JS 
 ## React.js
 JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.
 
