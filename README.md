@@ -21,3 +21,4 @@ You can start learning Hooks on the next page. On this page, we’ll continue by
 Do Hooks cover all use cases for classes?
 Our goal is for Hooks to cover all use cases for classes as soon as possible. There are no Hook equivalents to the uncommon getSnapshotBeforeUpdate, getDerivedStateFromError and componentDidCatch lifecycles yet, but we plan to add them soon.
 
+## UseState
