@@ -32,3 +32,7 @@ The useEffect Hook allows you to perform side effects in your components. Some e
 ## UseContext
 
 When do you need context? The main idea of using the context is to allow your components to access some global data and re-render when that global data is changed. Context solves the props drilling problem: when you have to pass down props from parents to children
+
+## useRef
+
+The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
