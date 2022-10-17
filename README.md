@@ -36,3 +36,9 @@ When do you need context? The main idea of using the context is to allow your co
 ## useRef
 
 The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+
+What Are Serverless Functions?
+Serverless functions enable frontend developers to add powerful “backend” logic to our apps just by writing JavaScript — no DevOps, no servers, just results. — Jason Lengstorf
+
+Using Serverless Functions allows you to “post” data from your frontend to your “backend” in the same project. The Serverless Function can then securely “post” to a Database to store data.
+
