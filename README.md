@@ -48,3 +48,4 @@ The way to achieve this differs slightly between the frameworks, but the general
 
 ## UseReducer
 
+An alternative to useState. Accepts a reducer of type (state, action) => newState, and returns the current state paired with a dispatch method. (If you’re familiar with Redux, you already know how this works.)
