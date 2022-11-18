@@ -45,3 +45,6 @@ Using Serverless Functions allows you to “post” data from your frontend to y
 Since all the business logic is on the “backend”, the API keys or secrets required to make the database connection are never exposed to the frontend/user/(the browser).
 
 The way to achieve this differs slightly between the frameworks, but the general idea is to have a “Page” that handles sending the request to the “API”.
+
+## UseReducer
+
