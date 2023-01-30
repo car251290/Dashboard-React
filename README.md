@@ -25,6 +25,9 @@ JSX allows us to write HTML elements in JavaScript and place them in the DOM wit
 
 JSX converts HTML tags into react elements.
 
+## React Component Design
+Based on the screen design, we can break down components as shown in the diagram below. The idea is to make thing organized and create components which are reusable and easily maintainable for possible new features in the future.
+
 ## Hooks 
 Data fetching, setting up a subscription, and manually changing the DOM in React components are all examples of side effects. Whether or not you’re used to calling these operations “side effects” (or just “effects”), you’ve likely performed them in your components before.
 
