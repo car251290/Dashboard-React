@@ -18,8 +18,6 @@ With arrow functions the this keyword always represents the object that defined 
 
 Let us take a look at two examples to understand the difference.
 
-
-
 ## React.js
 JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.
 
