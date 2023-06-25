@@ -22,7 +22,13 @@ Let us take a look at two examples to understand the difference.
 JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.
 
 JSX converts HTML tags into react elements.
- <img style="width: 15%;height:15%;" src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png">
+
+
+<div>
+ <img style="width: 15%;height:15%;" src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png"> 
+</div>
+
+
  
 ## React Component Design
 Based on the screen design, we can break down components as shown in the diagram below. The idea is to make things organized and create components that are reusable and easily maintainable for possible new features in the future.
