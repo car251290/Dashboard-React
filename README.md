@@ -41,7 +41,7 @@ This new function Usestate is the first “Hook” we’ll learn about, but this
 You can start learning Hooks on the next page. On this page, we’ll explain why we’re adding Hooks to React and how they can help you write great applications.
 
 Do Hooks cover all use cases for classes?
-Our goal is for Hooks to cover all use cases for classes as soon as possible. There are no Hook equivalents to the uncommon getSnapshotBeforeUpdate, getDerivedStateFromError and componentDidCatch lifecycles yet, but we plan to add them soon.
+Our goal is for Hooks to cover all use cases for classes as soon as possible. There are no Hook equivalents to the uncommon getSnapshotBeforeUpdate, getDerivedStateFromError, and componentDidCatch lifecycles yet, but we plan to add them soon.
 
 ## UseState
 
@@ -59,7 +59,7 @@ When do you need context? The main idea of using the context is to allow your co
 
 ## useRef
 
-The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+The userRef Hook allows you to persist values between renders. It can store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
 
 What Are Serverless Functions?
 Serverless functions enable frontend developers to add powerful “backend” logic to our apps just by writing JavaScript — no DevOps, no servers, just results. — Jason Lengstorf
